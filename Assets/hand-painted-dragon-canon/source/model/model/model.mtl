@@ -1,0 +1,362 @@
+# Blender 3.5.0 MTL File: 'dragoncanon.blend'
+# www.blender.org
+
+newmtl barrel4
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.503800 0.340000 0.619300
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl barrel_basesupport.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/textures/basesupport.png
+
+newmtl barrel_skin.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.513636 0.513636 0.513636
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_barrel_skin_BaseColor.png
+
+newmtl base1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/textures/base.png
+
+newmtl base_dec1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/mesh_base_dec1_BaseColor.png
+
+newmtl exhaust.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/accessories_exhaust_BaseColor.png
+
+newmtl fur4.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_fur4_BaseColor.png
+
+newmtl guard_dec4
+Ns 6.246020
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/guardv2_guard_dec4_BaseColor.png
+
+newmtl guard_dec_1.004
+Ns 5.548211
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/guardv2_guard_dec_1_BaseColor.png
+
+newmtl guard_dec_2.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/guardspike_guard_dec_2_BaseColor.png
+
+newmtl guard_dec_3.005
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/guardspike_guard_dec_3_BaseColor.png
+
+newmtl handle.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/accessories_handle_BaseColor.png
+
+newmtl lambert1.002
+Ns 58.037193
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:/projects/Blender/canon/New folder/meshv2_lambert1_BaseColor.png
+
+newmtl lambert10
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd D:/projects/Blender/canon/New folder/skin_lambert10_BaseColor.png
+
+newmtl lambert4
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/barrelfinal_lambert3_BaseColor.png
+
+newmtl lambert8
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/headgear_lambert8_BaseColor.png
+
+newmtl lash4_eye.001
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/EYE3_lash4_eye_BaseColor.png
+
+newmtl lash4_lash1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/eye_lash4_lash1_BaseColor.png
+
+newmtl lash4_lash2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/eye_lash4_lash2_BaseColor.png
+
+newmtl left_horn
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/headgear_left_horn_BaseColor.png
+
+newmtl lid_exhaust_hold
+Ns 13.316104
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_lid_exhaust_hold_BaseColor.png
+
+newmtl lid_front_guard.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/guard_lid_front_guard_BaseColor.png
+
+newmtl lid_guard.001
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/guard_lid_guard_BaseColor.png
+
+newmtl lid_guider1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/accessories_lid_guider_BaseColor.png
+
+newmtl lid_gum
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_lid_gum_BaseColor.png
+
+newmtl lid_main
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/mesh_lid_main_BaseColor.png
+
+newmtl lid_main_dec1.002
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_lid_main_dec1_BaseColor.png
+
+newmtl lid_teeth
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_lid_teeth_BaseColor.png
+
+newmtl lid_triggerpath.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_lid_triggerpath_BaseColor.png
+
+newmtl lower_jaw1.002
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/meshv3_lower_jaw1_BaseColor.png
+
+newmtl mirror_3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/headgear_mirror_3_BaseColor.png
+
+newmtl mirror_link
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/headgear_mirror_link_BaseColor.png
+
+newmtl rear
+Ns 23.030804
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/headgear_lambert8_BaseColor.png
+
+newmtl trigger1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/accessories_trigger1_BaseColor.png
+
+newmtl trigger2
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/handle_trigger2_BaseColor.png
+
+newmtl upper_jaw2.002
+Ns 9.450489
+Ka 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd D:/projects/Blender/canon/New folder/upperjaw.png

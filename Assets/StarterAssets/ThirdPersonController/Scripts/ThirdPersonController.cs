@@ -38,6 +38,7 @@ namespace StarterAssets
 
         [Tooltip("The character uses its own gravity value. The engine default is -9.81f")]
         public float Gravity = -15.0f;
+        public float GliderGravity = -15.0f;
 
         [Space(10)]
         [Tooltip("Time required to pass before being able to jump again. Set to 0f to instantly jump again")]
@@ -90,6 +91,7 @@ namespace StarterAssets
         // timeout deltatime
         private float _jumpTimeoutDelta;
         private float _fallTimeoutDelta;
+        private float _currentGravity;
 
         // animation IDs
         private int _animIDSpeed;
@@ -109,6 +111,7 @@ namespace StarterAssets
         private const float _threshold = 0.01f;
 
         private bool _hasAnimator = true;
+        private bool _canJump = true;
 
         private bool IsCurrentDeviceMouse
         {
@@ -119,6 +122,22 @@ namespace StarterAssets
 #else
                 return false;
 #endif
+            }
+        }
+
+        public void Bouncy()
+        {
+            Debug.Log("SPEED: " + _verticalVelocity);
+            if (_verticalVelocity >= 0)
+            {
+                return;
+            }
+
+            _verticalVelocity = Mathf.Sqrt(2 * -2f * _currentGravity);
+
+            if (_hasAnimator)
+            {
+                _animator.SetBool(_animIDJump, true);
             }
         }
 
@@ -136,6 +155,7 @@ namespace StarterAssets
         {
             _cinemachineTargetYaw = CinemachineCameraTarget.transform.rotation.eulerAngles.y;
 
+            _currentGravity = Gravity;
             _controller = GetComponent<CharacterController>();
             _input = GetComponent<StarterAssetsInputs>();
 #if ENABLE_INPUT_SYSTEM
@@ -280,8 +300,16 @@ namespace StarterAssets
         {
             if (Grounded)
             {
+                _canJump = true;
+            }
+
+            if (_canJump)
+            {
                 // reset the fall timeout timer
+                _canJump = false;
+                _currentGravity = Gravity;
                 _fallTimeoutDelta = FallTimeout;
+                _animator.SetBool("Glider", false);
 
                 // update animator if using character
                 if (_hasAnimator)
@@ -300,7 +328,7 @@ namespace StarterAssets
                 if (_input.jump && _jumpTimeoutDelta <= 0.0f)
                 {
                     // the square root of H * -2 * G = how much velocity needed to reach desired height
-                    _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+                    _verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * _currentGravity);
 
                     // update animator if using character
                     if (_hasAnimator)
@@ -336,12 +364,25 @@ namespace StarterAssets
 
                 // if we are not grounded, do not jump
                 _input.jump = false;
+
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    _currentGravity = GliderGravity;
+                    _verticalVelocity = 0;
+                    _speed = 0;
+                    _animator.SetBool("Glider", true);
+                }
+                else if (Input.GetKeyUp(KeyCode.Q))
+                {
+                    _currentGravity = Gravity;
+                    _animator.SetBool("Glider", false);
+                }
             }
 
             // apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
             if (_verticalVelocity < _terminalVelocity)
             {
-                _verticalVelocity += Gravity * Time.deltaTime;
+                _verticalVelocity += _currentGravity * Time.deltaTime;
             }
         }
 
